@@ -1,0 +1,221 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mary Atieno</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/responsive.css">
+</head>
+<body>
+    <nav>
+        <ul class="menu">
+            <li class="logo"><a href="#">
+                <img src="images/home/logo.png" alt="">
+            </a></li>
+            <li class="item"><a href="#home">Home</a></li>
+            <li class="item has-submenu"  onclick="scrollView()">
+                <a tabindex="0">About</a>
+                <ul class="submenu">
+                    <li class="subitem" onclick="scrollView1()"><a href="#skills">Skills</a></li>
+                </ul>
+            </li>
+            <li class="item" onclick="scrollView2()"><a href="#portfolio">Portfolio</a></li>
+            <li class="item"><a href="#blog">Blog</a></li>
+            <li class="item" onclick="scrollView3()"><a href="#contact">Contact</a></li>
+            <li class="toggle"><a href="#">
+                <i>&#10133</i>
+            </a></li>
+        </ul>
+    </nav>
+    <main>
+        <header class="hero-section">
+            <div class="intro">
+                <h1><span>hello i'm</span>mary atieno<span>web developer</span></h1>
+            </div>
+        </header>
+        <!--Biography-->
+        <section class="about-me">
+            <div class="section-header">
+                <h2>about me</h2>
+                <p>Thinker, Creative Doer</p>
+            </div>
+            <div class="my-info">
+                <div class="profile">
+                    <div class="image-box">
+                        <img src="images/about/about.jpg" alt="">
+                    </div>
+                </div>
+                <div class="descr">
+                    <h4>I'm a Web Developer</h4>
+                    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Consequuntur vel nam incidunt odio adipisci eum nesciunt. Amet quis debitis non?</p>
+                </div>
+                <div class="more-info">
+                    <h4>Information</h4>
+                    <ul>
+                        <li><span>Name</span> Mary Atieno</li>
+                        <li><span>Email</span> maryatieno463@gmail.com</li>
+                        <li><span>Age</span> 25</li>
+                        <li><span>Phone</span> +254797040917</li>
+                        <li><span>Residence</span> Kenya</li>
+                        <li><span>Freelance</span> Available</li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+        <!--End of Biography-->
+        <hr>
+        <!--Skills-->
+        <section class="skills">
+            <div class="section-header">
+                <h2>MY SKILLS</h2>
+            </div>
+            <div class="my-skills">
+                <div class="progress">
+                    <div class="progress-header">
+                        <h6>HTML5/CSS</h6>
+                        <h5>85%</h5>
+                    </div>
+                    <div class="progress-bar">
+                        <div class="progress-percent" style="width: 85%;"></div>
+                    </div>
+                </div>
+                <div class="progress">
+                    <div class="progress-header">
+                        <h6>JAVASCRIPT</h6>
+                        <h5>75%</h5>
+                    </div>
+                    <div class="progress-bar">
+                        <div class="progress-percent" style="width: 75%;"></div>
+                    </div>
+                </div>
+                <div class="progress">
+                    <div class="progress-header">
+                        <h6>PHP</h6>
+                        <h5>85%</h5>
+                    </div>
+                    <div class="progress-bar">
+                        <div class="progress-percent" style="width: 85%;"></div>
+                    </div>
+                </div>
+                <div class="progress">
+                    <div class="progress-header">
+                        <h6>C++</h6>
+                        <h5>80%</h5>
+                    </div>
+                    <div class="progress-bar">
+                        <div class="progress-percent" style="width: 80%;"></div>
+                    </div>
+                </div>
+                <div class="progress">
+                    <div class="progress-header">
+                        <h6>Java</h6>
+                        <h5>80%</h5>
+                    </div>
+                    <div class="progress-bar">
+                        <div class="progress-percent" style="width: 80%;"></div>
+                    </div>
+            </div>
+        </section>
+        <!--/Skills-->
+        <hr>
+        <!--Portfolio-->
+        <section class="portfolio">
+            <div class="section-header">
+                <h2>MY PORTFOLIO</h2>
+            </div>
+            <div class="projects">
+                <div class="project">
+                    <img src="images/portfolio/1.jpg" alt="">
+                    <div class="project-info">
+                        <h6>3 Column Preview Card</h6>
+                        <div class="btns">
+                            <button><a href="https:/github.com/marieachieng/3-column-preview-card.git">View on Github</a></button>
+                            <button><a href="https://marieachieng.github.io/3-column-preview-card/">Demo</a></button>
+                        </div>
+                   </div>
+                </div>
+                <div class="project">
+                    <img src="images/portfolio/2.jpg" alt="">
+                   <div class="project-info">
+                        <h6>Stats Previe Card</h6>
+                        <div class="btns">
+                            <button><a href="#">View on Github</a></button>
+                            <button><a href="https://mary-stats-preview-card.netlify.app">Demo</a></button>
+                        </div>
+                   </div>
+                </div>
+            </div>
+        </section>
+        <!--/Portfolio-->
+        <hr>
+        <!--Contact-->
+        <section class="my-contact">
+            <div class="section-header">
+                <h2>CONTACT ME</h2>
+            </div>
+            <div class="contact-me">
+                <div class="contact-info">
+                    <div class="contact">
+                        <span class="material-icons">location</span>
+                        <p>Nairobi, Kenya</p>
+                    </div>
+                    <div class="contact">
+                        <span class="material-icons">phone</span>
+                        <p>+2547 9704 0917</p>
+                    </div>
+                    <div class="contact">
+                        <span class="material-icons">mail</span>
+                        <p>maryatieno463@gmail.com</p>
+                    </div>
+                </div>
+                <div class="contact-form">
+                    <div class="form-header">
+                        <p>Fill in the form to get in touch today</p>
+                    </div>
+                    <form action="">
+                        <div class="contact">
+                            <div class="control-input">
+                               <input type="text" name="fullName" placeholder="John Doe">
+                            </div>
+                            <div class="control-input">
+                                <input type="email" name="email" placeholder="Your email address">
+                            </div>
+                        </div>
+                        <div class="msg">
+                            <textarea name="message" id="msg" cols="30" rows="10" placeholder="Type your message..."></textarea>
+                        </div>
+                        <div class="btn">
+                            <button type="submit"><a href="mailto: maryatieno463@gmail.com">Send Message</a></button>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </section>
+        <!--/Contact-->
+    </main>
+    <footer>
+        <div class="footer">
+            <div class="enquiry">
+                <h6>For Enquiries</h6>
+                <div>
+                    <p><span></span> maryatieno463@gmail.com</p>
+                    <p><span></span> Nairobi, Kenya</p>
+                </div>
+            </div>
+            <div class="web-links">
+                <h6>Explore the website</h6>
+                <ul>
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#">About</a></li>
+                    <li><a href="#">Portfolio</a></li>
+                </ul>
+            </div>
+        </div>
+        <p>Built by Mary Atieno</p>
+        <p>Copyright &#copy AMATIENO 2021</p>
+    </footer>
+<script src="js/main.js"></script>
+</body>
+</html>
